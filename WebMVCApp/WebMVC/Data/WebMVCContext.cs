@@ -15,5 +15,7 @@ namespace WebMVC.Data
         }
 
         public DbSet<WebMVC.Models.Movie>? Movie { get; set; }
+
+        public DbSet<WebMVC.Models.Department>? Department { get; set; }
     }
 }
